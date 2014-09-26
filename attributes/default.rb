@@ -16,7 +16,7 @@ default['gitweb']['ssl_certificate'] = nil
 default['gitweb']['proxy']['port']['http'] = '80'
 default['gitweb']['proxy']['port']['ssl'] = '443'
 
-default['gitweb']['auth']['type'] = 'LDAP'
+default['gitweb']['auth']['type'] = 'NONE'
 default['gitweb']['auth']['ldap']['host'] = 'localhost'
 default['gitweb']['auth']['ldap']['port'] = '389'
 default['gitweb']['auth']['ldap']['basedn'] = 'dc=example,dc=com'
